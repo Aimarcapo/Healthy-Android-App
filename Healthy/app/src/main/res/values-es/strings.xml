@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Healthy</string>
+    <string name="user">Usuario</string>
+    <string name="password">Contraseña</string>
+    <string name="login">Iniciar sesion</string>
+    <string name="signup">Registrarse</string>
+    <string name="name">Nombre</string>
+    <string name="surname">Apellido</string>
+    <string name="back">Atras</string>
+    <string name="medicine">Medicinas</string>
+    <string name="create">Crear</string>
+    <string name="update">Actualizar</string>
+    <string name="addmedicamento">Añadir Medicamento</string>
+    <string name="selectmedicine">Seleccionar Medicamento</string>
+    <string name="showpassword">Mostrar Contraseña</string>
+    <string name="delete">Eliminar</string>
+</resources>

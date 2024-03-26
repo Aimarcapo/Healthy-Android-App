@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/login"
+   >
+
+    <fragment
+        android:id="@+id/login"
+        android:name="eus.aimar.healthy.LogIn"
+        android:label="log_in"
+        tools:layout="@layout/login">
+    <action
+        android:id="@+id/action_login_to_menu"
+        app:destination="@id/menu" />
+        <action
+            android:id="@+id/action_login_to_show"
+            app:destination="@id/showPacientes" />
+        <action
+            android:id="@+id/action_login_to_signup"
+            app:destination="@id/signUp" />
+
+    </fragment>
+    <fragment
+        android:id="@+id/menu"
+        android:name="eus.aimar.healthy.Menu"
+        android:label="fragment_menu"
+        tools:layout="@layout/fragment_menu" >
+        <action
+            android:id="@+id/action_mainMenu_to_ShowPacientes"
+            app:destination="@id/showPacientes" />
+        <action
+            android:id="@+id/action_mainMenu_to_CreatePacientes"
+            app:destination="@id/createPacientes" />
+        <action
+            android:id="@+id/action_mainMenu_to_EditPacientes"
+            app:destination="@id/editPacientes" />
+    </fragment>
+    <fragment
+        android:id="@+id/showPacientes"
+        android:name="eus.aimar.healthy.Recycler.ShowPacientes"
+        android:label="show_pacientes"
+        tools:layout="@layout/show_pacientes" >
+        <action
+            android:id="@+id/action_show_to_EditPacientes"
+            app:destination="@id/editPacientes" />
+        <!--<action
+            android:id="@+id/action_edit_to_show"
+            app:destination="@id/showPacientes" />-->
+        <action
+            android:id="@+id/action_show_to_create"
+            app:destination="@id/createPacientes" />
+        <action
+            android:id="@+id/action_show_to_login"
+            app:destination="@id/login" />
+    </fragment>
+    <fragment
+        android:id="@+id/signUp"
+        android:name="eus.aimar.healthy.SignUp"
+        android:label="SignUp" >
+        <action
+            android:id="@+id/action_signup_to_login"
+            app:destination="@id/login" />
+    </fragment>
+    <fragment
+        android:id="@+id/createPacientes"
+        android:name="eus.aimar.healthy.CreatePacientes"
+        android:label="create_pacientes"
+        tools:layout="@layout/create_pacientes" >
+        <action
+            android:id="@+id/action_createPacientes_to_menu"
+            app:destination="@id/menu" />
+        <action
+            android:id="@+id/action_createPacientes_to_show"
+            app:destination="@id/showPacientes" />
+    </fragment>
+    <fragment
+        android:id="@+id/editPacientes"
+        android:name="eus.aimar.healthy.EditPacientes"
+        android:label="fragment_edit_paciente"
+        tools:layout="@layout/fragment_edit_paciente" >
+        <action
+            android:id="@+id/action_edit_to_shpw"
+            app:destination="@id/showPacientes" />
+    </fragment>
+
+</navigation>

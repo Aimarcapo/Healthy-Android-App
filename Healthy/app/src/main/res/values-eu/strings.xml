@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Healthy</string>
+    <string name="user">Erabiltzailea</string>
+    <string name="password">Pasahitza</string>
+    <string name="login">Sesioa hasi</string>
+    <string name="signup">Erregistratu</string>
+    <string name="name">Izena</string>
+    <string name="surname">Abizena</string>
+    <string name="back">Atzera joan</string>
+    <string name="medicine">Botikak</string>
+    <string name="create">Sortu</string>
+    <string name="update">Eguneratu</string>
+    <string name="addmedicamento">Botika gehitu</string>
+    <string name="selectmedicine">Aukeratu Botika</string>
+    <string name="showpassword">Pasahitza ikusi</string>
+    <string name="delete">Borratu</string>
+</resources>

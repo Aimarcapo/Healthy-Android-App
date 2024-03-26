@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Healthy</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="user">User</string>
+    <string name="password">Password</string>
+    <string name="login">Log In</string>
+    <string name="signup">Sign Up</string>
+    <string name="name">Name</string>
+    <string name="surname">Surname</string>
+    <string name="back">Back</string>
+    <string name="medicine">Medicine</string>
+    <string name="create">Create</string>
+    <string name="update">Update</string>
+    <string name="addmedicamento">Add Medicine</string>
+    <string name="selectmedicine">Select Medicine</string>
+    <string name="showpassword">Show Password</string>
+    <string name="delete">Delete</string>
+</resources>
